@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(255, 177, 190);
+    font-family: 'Nunito Sans', sans-serif;
+}
+.sidetext h2{
+    color: rgb(203, 12, 12);
+    font-weight: 100;
+    font-size: 2.4rem;
+}
+.sidetext p{
+    color: rgb(248, 76, 110);
+    font-weight: 100;
+    font-size: 1.4rem;
+    line-height: 2;
+}
+.context{
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainNavbar .nav-link{
+color: white;
+font-size: 1.3rem;
+position: relative;
+}
+#mainNavbar .nav-link:hover{
+ color: rgb(203, 12, 12);
+ font-size: 1.3rem;
+ font-weight: 500;
+ text-decoration: underline;
+ top: -2px;
+}
+#mainNavbar .navbar-brand{
+    color: rgb(203, 12, 12);
+    font-size: 1.8rem;
+    font-weight:900;
+}
+#headingGroup span{
+color:  rgb(203, 12, 12);
+}
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+.navbar{
+    background: rgb(247, 145, 247);
+    transition: background 500ms;
+}
+@media(max-width:1200px){
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem; 
+}
+}
