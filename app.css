@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 177, 190);
+    background-color: rgb(255, 255, 255);
     font-family: 'Nunito Sans', sans-serif;
 }
 .sidetext h2{
@@ -22,12 +22,12 @@ body{
     font-weight: 100;
 }
 #mainNavbar .nav-link{
-color: white;
+color: rgb(255, 255, 255);
 font-size: 1.3rem;
 position: relative;
 }
 #mainNavbar .nav-link:hover{
- color: rgb(203, 12, 12);
+ color: rgb(168, 74, 74);
  font-size: 1.3rem;
  font-weight: 500;
  text-decoration: underline;
@@ -37,16 +37,17 @@ position: relative;
     color: rgb(203, 12, 12);
     font-size: 1.8rem;
     font-weight:900;
+    margin-left: 0.2rem;
 }
 #headingGroup span{
-color:  rgb(203, 12, 12);
+color:  rgb(186, 60, 60);
 }
 #headingGroup h1{
     font-weight: 100;
     font-size: 4rem;
 }
 .navbar{
-    background: rgb(247, 145, 247);
+    background: rgb(0, 0, 0);
     transition: background 500ms;
 }
 @media(max-width:1200px){
